@@ -1,0 +1,10 @@
+{application,specs,
+             [{description,"An OTP application"},
+              {vsn,"0.1.0"},
+              {registered,[]},
+              {mod,{specs_app,[]}},
+              {applications,[kernel,stdlib]},
+              {env,[]},
+              {modules,[lib_specs,specs,specs_app,specs_sup]},
+              {licenses,["Apache-2.0"]},
+              {links,[]}]}.
